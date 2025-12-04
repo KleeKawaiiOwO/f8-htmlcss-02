@@ -116,6 +116,7 @@ a {
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    display: block;
 }
 
 .hero .hero-summary {
@@ -131,6 +132,7 @@ a {
 
 .hero-summary .item {
     display: flex;
+    justify-content: center;
 }
 
 .hero-summary .item + .item {
